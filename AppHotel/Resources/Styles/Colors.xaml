@@ -27,6 +27,12 @@
     <Color x:Key="Gray900">#212121</Color>
     <Color x:Key="Gray950">#141414</Color>
 
+    <Color x:Key="turquesa">#2d6073</Color>
+    <Color x:Key="verdeagua">#65b8a6</Color>
+    <Color x:Key="bege">#f0f7da</Color>
+    
+    
+
     <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
     <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}"/>
     <SolidColorBrush x:Key="TertiaryBrush" Color="{StaticResource Tertiary}"/>

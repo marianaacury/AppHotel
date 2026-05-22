@@ -30,18 +30,19 @@
                 </Grid>
 
                 <Label Text="Escolha sua Suíte:"/>
-                <Picker x:Name="pck_quarto" Title="Selecione a sua acomodação"/>
+                <Picker x:Name="pck_quarto" Title="Selecione a sua acomodação" ItemDisplayBinding="{Binding Descricao}"/>
                 <Frame Padding="10" Margin="10">
                     <VerticalStackLayout>
                         <Label Text="Período da Estada:"/>
                         <HorizontalStackLayout>
-                            <DatePicker x:Name="dtp_checkin" Date="{Binding CheckInDate}" />
-                            <DatePicker x:Name="dtp_checkout" Date="{Binding CheckOutDate}" />
+                            <DatePicker x:Name="dtpck_checkin" Date="{Binding CheckInDate}" />
+                            <DatePicker x:Name="dtpck_checkout" Date="{Binding CheckOutDate}" />
                         </HorizontalStackLayout>
                     </VerticalStackLayout>
                 </Frame>
-                <Button Text="Avançar" />
+                <Button Text="Avançar" Clicked="Button_Clicked" /> 
             </VerticalStackLayout>
         </Frame>
     </VerticalStackLayout>
 </ContentPage>
+
