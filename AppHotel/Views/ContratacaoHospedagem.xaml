@@ -4,13 +4,13 @@
              x:Class="AppHotel.Views.ContratacaoHospedagem"
              Title="ContratacaoHospedagem"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="{StaticResource MidnightBlue}">
+             BackgroundColor="{StaticResource bege}">
     <VerticalStackLayout
         VerticalOptions="CenterAndExpand"
         Padding="10">
         <Label 
             Text="Cálculo da Diária"
-            TextColor="{StaticResource Primary}"
+            TextColor="{StaticResource verdeagua}"
             FontFamily="KalamBold"
             FontSize="50"
             HorizontalOptions="Center"
@@ -40,7 +40,7 @@
                         </HorizontalStackLayout>
                     </VerticalStackLayout>
                 </Frame>
-                <Button Text="Avançar" Clicked="Button_Clicked" /> 
+                <Button Text="Avançar" TextColor="{StaticResource bege}" BackgroundColor="{StaticResource turquesa}" Clicked="Button_Clicked" /> 
             </VerticalStackLayout>
         </Frame>
     </VerticalStackLayout>
